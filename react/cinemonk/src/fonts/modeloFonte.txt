@@ -1,0 +1,1 @@
+Para poder importar a fonte já instalada é necessário inseri-la na pasta e alterar seu nome no final por exemplo: MontSerrat.algmcoisa = MontSerrat.woff2
