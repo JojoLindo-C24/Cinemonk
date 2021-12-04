@@ -1,4 +1,5 @@
-import {Container} from './styled'
+import {Container} from './styled';
+import { Link } from 'react-router-dom';
 
 export default function Inicial() {
     return(
@@ -10,7 +11,11 @@ export default function Inicial() {
                 </div>
                 <div className="txtContent">
                     <div className="txt">O que você quer fazer?</div>
-                    <button className="button">Comprar<br></br>Ingresso</button>
+                    <Link to={{
+                        pathname: '/inicial'
+                    }}>
+                        <button className="button">Comprar<br></br>Ingresso</button>
+                    </Link>
                 </div>
             </div>
         </Container>
